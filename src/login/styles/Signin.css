@@ -1,0 +1,116 @@
+
+.login-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.login-container{
+    display: flex;
+    background-color: white;
+}
+
+.login-div{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.login-container h1{
+    font-weight: 300;
+    padding: 0 0 10px 0;
+}
+
+
+.email-lable-div label{
+    font-weight: 900;
+}
+
+.email-input-div input {
+    width: 100%;
+    border: .1px solid gray;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 3px;
+    background-color: rgb(232,240,254);
+}
+
+.password-div{
+    margin-top: 10px;
+}
+
+.password-lable-div label{
+    font-weight: 900;
+}
+
+.password-input-div input{
+    width: 100%;
+    border: .1px solid gray;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 3px;
+    background-color: rgb(232,240,254);
+}
+
+.signin-button-div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-button{
+    width: 100%;
+    cursor: pointer;
+    background-color: #FFD814;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.legal-check-box{
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.keep-me-signedin-div{
+    margin-top: 20px;
+
+}
+
+.new-to-amazon{
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    color: #767676;
+}
+
+.create-account-button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.create-account-button{
+    width: 100%;
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: .001px solid #767676;
+
+}
+
+a{
+    text-decoration: none;
+}

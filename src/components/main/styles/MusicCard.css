@@ -1,0 +1,44 @@
+.musicCard{
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    width: 250px;
+    height: 300px;
+    /* z-index: 6; */
+    position: relative;
+}
+
+.musicCard:hover {
+    cursor: pointer;
+}
+
+.bannerImage{
+    border-radius: 0.5rem;
+}
+
+/* .bannerImage:hover {
+    webkit-filter: blur(1px);
+    filter: blur(1px);
+} */
+
+.artist{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.75rem;
+    color: #b5b1b1;
+    white-space: nowrap;
+}
+
+.musicToggler{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+    top: 100px;
+}

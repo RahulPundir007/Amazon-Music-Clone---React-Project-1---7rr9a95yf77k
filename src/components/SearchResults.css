@@ -1,0 +1,33 @@
+.result-list{
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px #ddd;
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: scroll; 
+    position: absolute;
+    top: 30px;
+    gap: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding: 1rem 0.5rem;
+    z-index: 9;
+}
+
+/* .result-list {
+    background-color: #000;
+    width: 1903px;
+    height: 1000px;
+    position: absolute;
+    margin-top: 1100px;
+    margin-right: 1150px;
+
+} */
+
+.eachResult:hover{
+    background-color: #25D1DA;
+}

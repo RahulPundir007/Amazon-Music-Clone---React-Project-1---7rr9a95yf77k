@@ -1,0 +1,136 @@
+
+
+.Logo{
+    color: white;
+    width: 150px;
+    margin-left: 10rem;
+}
+
+.navbar{
+    align-items: center;
+    border-bottom: 0.1px solid #555;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 7;
+    backdrop-filter: blur(25px);
+}
+
+.nav-ul{
+    align-items: center;
+    backdrop-filter: blur(20px);
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+}
+
+.nav-ul li {
+    color: #fff;
+}
+
+.nav-logo-li {
+    cursor: pointer;
+}
+
+.nav-logo-div{
+    height: 100%;
+    width: auto;
+}
+
+.Logo{
+    margin-top: 10px;
+    padding: 20px;
+    width: 190px;
+}
+
+.nav-content-li{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    gap: 10px;
+    width: 100%;
+}
+
+.nav-content-div{
+    gap: 50px;
+    justify-content: center;
+    margin-left: 15px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.nav-content-div-comps{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+}
+
+.nav-content-div-comps a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-search-div{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2.5rem;
+    height: 35px;
+    width: 250px;
+    box-shadow: 0px 0px 6px #f7f7f7;
+    min-width: 200px;
+    position: relative;
+    z-index: 7;
+}
+
+.nav-search-div > #search {
+    background-color: transparent;
+    border: none;
+    font-size: 0.85rem;
+    border-radius: 30px;
+    outline: none;
+    height: 100%;
+    padding: 0 10px;
+    width: 100%;
+    z-index: 7;
+}
+
+
+
+/* .nav-links .nav-logo{
+    color: #fff;
+}
+
+.nav-item:hover {
+    color: rgb(37,209,218);
+}
+
+.nav-item a:hover{
+    color: rgb(37,209,218);
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+} */

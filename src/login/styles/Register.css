@@ -1,0 +1,53 @@
+
+.create-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.create-div {
+    display: flex;
+    flex-direction: column;
+    height: 650;
+    width: 350px;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.your-name-lable-div label{
+    font-weight: 900;
+}
+
+.your-name-input-div input {
+    width: 100%;
+    border: .1px solid gray;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 3px;
+    background-color: rgb(232,240,254);
+}
+.italic{
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.already-have-account{
+    margin-top: 20px;
+}
+
+.sign-button{
+    background-color: #FFD814;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+

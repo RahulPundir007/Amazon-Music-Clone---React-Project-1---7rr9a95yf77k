@@ -1,0 +1,75 @@
+.musicPlayer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    z-index: 9;
+    border-top: 0.1px solid rgb(63, 63, 63);
+}
+
+.musicPlayerDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    backdrop-filter: blur(25px);
+}
+
+.musicImage{
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.musicImageDiv{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.musicImageMain{
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actionButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    gap: 25px;
+    z-index: 1;
+}
+
+.musicPlayToggler{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    cursor: pointer;
+}
+
+.musicTogglerButton{
+    transform: scale(1.8);
+}
+
+.prevNextButton{
+    cursor: unset;
+    color: gray;
+}
+
+.prevNextButton:hover{
+    transform: scale(1.3);
+}

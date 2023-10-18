@@ -1,0 +1,39 @@
+.DefaultPage {
+    align-items: center;
+    background-color: #fff;
+    color: #5c5c5c;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    row-gap: 25px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.mainline {
+    font-size: 1.55rem;
+}
+
+.subline {
+    font-size: 1.3rem;
+    
+}
+
+.subline a{
+    text-decoration: none;
+    color: purple;
+}
+
+.DefaultPage img {
+    margin: 10px 0;
+    max-width: 80%;
+}
+
+.amazonlogo{
+    width: 150px;
+    border-radius: 30px;
+    
+}
